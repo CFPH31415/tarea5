@@ -1,0 +1,16 @@
+<p>Calculadora de Carlos</p>
+
+<link rel ='stylesheet' href='C:\angular5\proyecto5\src\style.css'>
+
+<p><input type ="number" [(ngModel)] = "variable1"></p>
+<p><input type ="number" [(ngModel)] = "variable2"></p>
+
+<p><button mat-raised-button color="primary" (click)= "sumar()">SUMAR</button>
+
+<p><button mat-raised-button color="primary" (click)= "restar()">RESTAR</button>
+
+<p><button mat-raised-button color="primary" (click)= "multiplicar()">MULTIPLICAR</button>
+
+<p><button mat-raised-button color="primary" (click)= "dividir()">DIVIDIR</button></p>
+
+<p>El resultado es: {{resultado}}</p>
